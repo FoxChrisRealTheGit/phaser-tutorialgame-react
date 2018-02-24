@@ -2,7 +2,7 @@ export default function winState() {
     
     return {
         create: function () {
-            var winLabel = this.game.add.text(80, 80, 'YOU WON!',
+            var winLabel = this.game.add.text(80, 80, 'you lose...',
                 { font: '50px Arial', fill: '#00FF00' });
             var startLabel = this.game.add.text(80, this.game.world.height - 80,
                 'press the "W" key to restart',
